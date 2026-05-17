@@ -2,6 +2,8 @@
 
 Boardtyper 3D is a Blender extension designed to automate the preparation, arrangement, and export of 3D game components directly into Tabletop Simulator (TTS). It generates the required `.obj` files, extracts textures, and compiles the final TTS `.json` save file, offering seamless local testing and direct GitHub asset hosting.
 
+![image alt](https://github.com/BooleanMuse/boardtyper_3d/blob/main/img/Screenshot%204.png?raw=true)
+
 ## Features
 
 * **TTS Component Typing:** Assign native TTS properties (Generic, Bag, Figurine, Coin, Board, Infinite, Dice, Chip) and materials directly in Blender.
@@ -10,6 +12,8 @@ Boardtyper 3D is a Blender extension designed to automate the preparation, arran
 * **Auto-Layout Grid:** Automatically arrange spawned objects in a clean grid to prevent physics collisions upon loading the game.
 * **Lua Injection:** Attach custom `.lua` scripts to any object directly from Blender's text editor or external files.
 * **Dual Export Modes:** Export locally for rapid testing, or auto-upload assets to a GitHub repository for online multiplayer.
+
+![image alt](https://github.com/BooleanMuse/boardtyper_3d/blob/main/img/Screenshot%206.png?raw=true)
 
 ## Installation
 
