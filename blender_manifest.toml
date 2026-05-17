@@ -17,11 +17,8 @@ license = [
 "SPDX:GPL-3.0-or-later",
 ]
 
-copyright = [
-  "Skarmuse ©",
-]
 
-tags = ["Import-Export", "Game Engine", "Object", "Boardtyper", "Boardgame", "Tabletop", "Simulator"]
+tags = ["Import-Export", "Game Engine", "Object"]
 
 # IMPORTANT PERMISSIONS
 [permissions]
