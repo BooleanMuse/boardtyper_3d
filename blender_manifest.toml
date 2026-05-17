@@ -10,7 +10,7 @@ type="add-on"
 # Boardtyper was designed and tested in 4.2+
 blender_version_min = "4.2.0"
 
-website = "https://github.com/tu-usuario/boardtyper_3d"
+website = "https://github.com/BooleanMuse/boardtyper_3d"
 
 # Mandatory Standard License for Blender Extensions
 license = [ 
