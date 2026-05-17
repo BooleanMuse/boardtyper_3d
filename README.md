@@ -36,12 +36,16 @@ Select any Mesh object in your scene and open the **Boardtyper 3D** tab in the 3
 * **Set:** Enable "Is Set" and increase the count to export multiple identical copies of the object.
 * **Bag Contents:** If the object Type is set to "Bag" or "Infinite", a list will appear. Click the `+` button to add other named objects from your scene into this bag, specifying the quantity for each.
 
+![image alt](https://github.com/BooleanMuse/boardtyper_3d/blob/main/img/Screenshot%201.png?raw=true)
+
 ### 2. Scene Objects Overview (Panel 2)
 
 This panel provides a quick summary of all objects configured for export. 
 
 * You can review their type, set multipliers, and current visibility flags.
 * Click the `X` button next to any item to instantly remove Boardtyper properties from that object, reverting it to a standard Blender mesh.
+
+![image alt](https://github.com/BooleanMuse/boardtyper_3d/blob/main/img/Screenshot%202.png?raw=true)
 
 ### 3. Scene & Export (Panel 3)
 
@@ -58,6 +62,8 @@ Configure the global parameters for your game and export the final files.
     * Click "Create / Verify Repository".
 
 Once everything is configured, click the **Export** button. Boardtyper will process all meshes, materials, and Lua scripts, generating a ready-to-play `.json` file.
+
+![image alt](https://github.com/BooleanMuse/boardtyper_3d/blob/main/img/Screenshot%203.png?raw=true)
 
 ## License & Credits
 
