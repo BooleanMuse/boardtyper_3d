@@ -1,26 +1,22 @@
 schema_version = "1.0.0"
 
-id="boardtyper_3d"
+id = "boardtyper_3d"
 version = "1.0.0"
 name = "Boardtyper 3D"
-tagline = "Export Blender models to Tabletop Simulator JSON"
+tagline = "Export Blender models directly to Tabletop Simulator JSON"
 maintainer = "Skarmuse"
-type="add-on"
+type = "add-on"
 
-# Boardtyper was designed and tested in 4.2+
 blender_version_min = "4.2.0"
 
-website = "https://github.com/BooleanMuse/boardtyper_3d"
-
-# Mandatory Standard License for Blender Extensions
-license = [ 
-"SPDX:GPL-3.0-or-later",
+license = [
+  "SPDX:GPL-3.0-or-later",
 ]
 
+tags = ["Import-Export", "Game Engine"]
 
-tags = ["Import-Export", "Game Engine", "Object"]
+[urls]
+website = "https://linktr.ee/skarmuse"
 
-# IMPORTANT PERMISSIONS
 [permissions]
-network = "Upload assets directly to GitHub repositories"
 files = "Export OBJ and JSON files to the local drive"
