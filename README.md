@@ -11,7 +11,7 @@ Boardtyper 3D is a Blender extension designed to automate the preparation, arran
 * **Visibility Control:** Keep utility objects hidden from the table while keeping them available inside bags.
 * **Auto-Layout Grid:** Automatically arrange spawned objects in a clean grid to prevent physics collisions upon loading the game.
 * **Lua Injection:** Attach custom `.lua` scripts to any object directly from Blender's text editor or external files.
-* **Dual Export Modes:** Export locally for rapid testing, or auto-upload assets to a GitHub repository for online multiplayer.
+* **Export local:** Export locally for rapid testing on TTS.
 
 ![image alt](https://github.com/BooleanMuse/boardtyper_3d/blob/main/img/Screenshot%206.png?raw=true)
 
@@ -57,13 +57,7 @@ Configure the global parameters for your game and export the final files.
 
 * **Save Info:** Define the "Game Name" (which sets the name of the output `.json`) and the local "Export Folder".
 * **Auto-Layout Grid:** Define the spacing, columns, and origin point. Boardtyper will automatically arrange all top-level objects into this grid to prevent physical collisions when spawning in TTS.
-* **Export Mode:**
-  * **LOCAL:** Uses `file:///` paths. Best for rapid prototyping on your own machine.
-  * **GITHUB:** Uploads the meshes, textures, and JSON to a specified repository.
-    * Enter your GitHub Username and a Personal Access Token (classic) with `repo` permissions.
-    * Click "Verify Token".
-    * Enter your target Repository Name and Subfolder.
-    * Click "Create / Verify Repository".
+* **LOCAL Export:** Uses `file:///` paths. Best for rapid prototyping on your own machine on TTS.
 
 Once everything is configured, click the **Export** button. Boardtyper will process all meshes, materials, and Lua scripts, generating a ready-to-play `.json` file.
 
