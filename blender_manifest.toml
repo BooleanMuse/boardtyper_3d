@@ -3,7 +3,7 @@ schema_version = "1.0.0"
 id = "boardtyper_3d"
 version = "1.0.0"
 name = "Boardtyper 3D"
-tagline = "Export Blender models directly to Tabletop Simulator JSON"
+tagline = "Export Blender models to Tabletop Simulator JSON"
 maintainer = "Skarmuse"
 type = "add-on"
 
